@@ -1,0 +1,24 @@
+{
+  "item": [
+    {
+      "id": 1,
+      "name": "Rifle",
+      "price": 5000
+    },
+    {
+      "id": 2,
+      "name": "Shotgun",
+      "price": 10000
+    },
+    {
+      "id": 3,
+      "name": "Sniper",
+      "price": 30000
+    },
+    {
+      "name": "ABCD",
+      "price": 1234,
+      "id": 4
+    }
+  ]
+}
