@@ -35,4 +35,17 @@ axios({
 .then(function(response) {
     console.log(response.data);
 });
-        
+
+
+
+axios({
+    method:'PUT',
+    url:'http://localhost:7777/item/2',
+    data: {
+        name: 'FIX_ABCD',
+        price: 4321
+    }
+})
+.then(function(response) {
+    console.log(response.data);
+});
