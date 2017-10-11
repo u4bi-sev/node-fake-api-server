@@ -3,48 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>fake api client</title>
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>        
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="index.js"></script>   
     </head>
     <body>
-        
-        <script>
-        
-            axios({
-                method:'GET',
-                url:'http://localhost:7777/item'
-            })
-            .then(function(response) {
-                console.log(response.data)   ;
-            });
-
-            axios({
-                method:'GET',
-                url:'http://localhost:7777/item/1'
-            })
-            .then(function(response) {
-                console.log(response.data);
-            });            
-            
-            axios({
-                method:'GET',
-                url:'http://localhost:7777/item?name=Rifle'
-            })
-            .then(function(response) {
-                console.log(response.data);
-            });
-
-            axios({
-                method:'POST',
-                url:'http://localhost:7777/item',
-                data: {
-                    name: 'ABCD',
-                    price: 1234
-                }
-            })
-            .then(function(response) {
-                // console.log(response.data);
-            });
-                         
-        </script>
     </body>
 </html>
